@@ -10,8 +10,6 @@ Podemos usar uno o más argumentos para ver más información sobre estos archiv
 
 - mkdir: crear un directorio
 - touch: un archivo txt
-
-
-esto es una prueba de cambios
-
-jose es mas moreno en persona 
+- git diff commitA commitB   ver la diferencia entre commits
+- git log Archivo.txt   historial de commits de un archivo
+- git show Archivo.text     ver los cambios de un archivo
