@@ -1,4 +1,4 @@
-pwd   > indica en que ruta estas actualmente 
+﻿pwd   > indica en que ruta estas actualmente 
 
 ls: Nos permite  ver los archivos de la carpeta donde estamos ahora mismo. 
 Podemos usar uno o más argumentos para ver más información sobre estos archivos 
@@ -12,4 +12,12 @@ Podemos usar uno o más argumentos para ver más información sobre estos archiv
 - touch: un archivo txt
 - git diff commitA commitB   ver la diferencia entre commits
 - git log Archivo.txt   historial de commits de un archivo
+- git log Archivo.txt   historial de commits de un repositorio
 - git show Archivo.text     ver los cambios de un archivo
+- git checkout CommitA   regresamos en a ese commit, lo que esta en staying (ram) se queda 
+- ahi o lo que esta untraked, git checkout master regresamos a master
+- git clone url_del_servidor_remoto: Nos permite descargar los archivos de la última versión de la rama principal y todo el historial de cambios en la carpeta .git.
+- git push: Luego de hacer git add y git commit debemos ejecutar este comando para mandar los cambios al servidor remoto.
+- git fetch: Lo usamos para traer actualizaciones del servidor remoto y guardarlas en nuestro repositorio local (en caso de que hayan, por supuesto).
+- git merge: También usamos el comando git fetch con servidores remotos. Lo necesitamos para combinar los últimos cambios del servidor remoto y nuestro directorio de trabajo.
+- git pull: Básicamente, git fetch y git merge al mismo tiempo.
