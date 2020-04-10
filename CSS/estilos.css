@@ -83,7 +83,7 @@ body{
 }
 
 .proyecto-titulo{
-    font-size: 30 px;
+    font-size: 60 px;
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -95,7 +95,7 @@ body{
 }
 
 .proyecto-descripcion{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .proyecto strong{
