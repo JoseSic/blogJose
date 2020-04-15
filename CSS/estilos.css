@@ -33,7 +33,11 @@ h1 {
 }
 
 h1 strong {
+<<<<<<< HEAD
     color: red;
+=======
+    color: #35ff02;
+>>>>>>> ramadesa
 }
 
 h2 {
